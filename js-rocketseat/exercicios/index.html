@@ -1,0 +1,34 @@
+<script>
+  let weight;
+
+  console.log("Weight é undefined");
+
+  let name = "Henrique";
+  let age = 21;
+  let stars = 5.0;
+  let isSubscribed = true;
+
+  const student = {
+    name: "Henrique",
+    age: 21,
+    weight: 66.0,
+    isSubscribed: true,
+  };
+
+  let ivan = {
+    name: "Ivan",
+    age: 10,
+    weight: 36.0,
+    isSubscribed: true,
+  };
+
+  console.log(`${student.name} de idade ${student.age} pesa ${student.weight}`);
+
+  let students = [student, ivan];
+
+  console.log(students);
+
+  //undefined porque a variavel a sofre elevação. Se trocar para let ela nao sofre elevação, então da erro.
+  console.log(a);
+  var a = 1;
+</script>
